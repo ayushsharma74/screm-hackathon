@@ -2,6 +2,8 @@
 
 export default function Home() {
   return (
-    <h1 className="text-4xl text-center">Test</h1>
+    <div className="h-screen w-full flex items-center justify-center bg-slate-400">
+        <button className="btn">DaisyUi Test</button>
+    </div>
   );
 }
